@@ -1,0 +1,15 @@
+app:
+  name: quay-integration-6
+  namespace: quay-integration-6-dev
+  cluster: .apps.cluster-hppnd.hppnd.sandbox2560.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/quay-integration-6
+  org: janus-demo-video
+  name: quay-integration-6
+
+image:
+  host: quay.io
+  name: quay-integration-6
+  tag: latest
